@@ -12,7 +12,9 @@
 
 ## About 🤔:
 
-This project addresses the challenge of using Q-learning and DFS algorithms to distribute orange fox species in territories, ensuring that foxes of the same species cannot coexist in the same territory. The problem is modeled using graphs, where foxes represent vertices and edges connect foxes of the same species. The minimum number of colors required for proper vertex coloring corresponds to the number of territories needed. Coloring graphs is an NP-hard problem, implying that deterministic solutions (since there are no polynomial solutions to the problem) are quite computationally intensive. Therefore, the problem cannot grow significantly.
+This project addresses the challenge of using Q-learning and DFS algorithms to distribute orange fox species in territories, ensuring that foxes of the same species cannot coexist in the same territory. The problem is modeled using graphs, where foxes represent vertices and edges connect foxes of the same species. 
+
+The minimum number of colors required for proper vertex coloring corresponds to the number of territories needed. Coloring graphs is an NP-hard problem, implying that deterministic solutions (since there are no polynomial solutions to the problem) are quite computationally intensive. Therefore, the problem cannot grow significantly.
 
 ## Resourses 🧑‍🔬:
 

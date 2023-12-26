@@ -17,7 +17,7 @@ This project addresses the challenge of using Q-learning and DFS algorithms to d
 ## Resourses 🧑‍🔬:
 
 - **Graph Representation:** Visual representations of colored graphs, showcasing the distribution of fox species in different territories.
-- **Coloring Algorithms:** python DFS (Depth-First Search) and Q-Learning implementations are used to color the graphs.
+- **Coloring Algorithms:** Python DFS (Depth-First Search) and Q-Learning implementations are used to color the graphs.
 -**Hyperparameter Analysis:** Analysis of hyperparameters, providing graphical images by iteratively varying hyperparameters.
 -**Algorithm Complexities:** Analys includes time and space complexities for each implemented algorithm, aiding in understanding their efficiency.
 
@@ -25,10 +25,11 @@ This project addresses the challenge of using Q-learning and DFS algorithms to d
 
 ## Dependencies 🚚:
 
-The project dependencies are described in  ```./dependencies/requirements.``` within the repository. In summary, heres what you're gonna need in order to run the project:
+The project dependencies are described in  ```./dependencies/requirements.txt``` within the repository. In summary, heres what you're gonna need in order to run the project:
 
-- [```dependencie <version>```](http:link.com).
-- 
+- [```networkx 3.1```](https://networkx.org/).
+- [```numpy 1.25.2```](https://numpy.org/).
+- [```matplotlib 3.8.0```](https://matplotlib.org/). 
 
 For installing dependencies more quickly, you can run the following command at terminal, inside the clonned repository:
 
@@ -39,30 +40,18 @@ Make sure you have all Dependencies before running the project.
 
 ## How to run it 🏃:
 
-First, clone this repository. After that, simply execute the ```file_name``` file with the command:
+First, clone this repository. After that, simply execute the ```fox_ia.ipynb``` file with the command:
 
-    sudo command_for_running_project
-
-## Logic Model 🧮:
-
-Here's the logic model that represents how the code works with their classes.
-
-<div align="center">
-	<a href="">
-	<img height = "250em" src = "https://github.com/FernandoSchett/github_readme_template/assets/80331486/4e4d24ee-efce-41d9-873b-3ececaf1cdd5" />
-    </a>
-</div>
-<h4 align="center">Figure 3 - Logic Model.</h4>
+    sudo jupyter notebook fox_ia.ipynb
 
 ### Tools Used 🛠️: 
 
-- [VScode](http:link.com). 
-- [CO]()
-- 
+- [VScode](https://code.visualstudio.com/). 
+- [Jupyter Notebook](https://jupyter.org/)
 
 ## How to contribute 🫂:
 
-Feel free to create a new branch, fork the project, create a new Issue or make a pull request contact one of us to develop at repo.
+Feel free to create a new branch, fork the project, create a new Issue or make a pull request contact one of us to develop at repo, inserting new algorithms and other analysis.
 
 ## Licence 📜:
 
@@ -73,6 +62,4 @@ Feel free to create a new branch, fork the project, create a new Issue or make a
 [1] <last_author_name>, <first_author_name>. <work_title>. XX/XX/XX.
 	
 [2] <work_title>, <author_name>. Avaliable in: <https://www.link.com>. Access in em XX/XX/XX.
-
-### Important links 🔗:
 

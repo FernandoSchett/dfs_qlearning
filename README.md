@@ -8,7 +8,7 @@
 
 ## Developed by 💻:
 
-- [FernandoSchettini](https://linktr.ee/fernandoschett).
+- [Fernando Schettini](https://linktr.ee/fernandoschett).
 
 ## About 🤔:
 
@@ -22,6 +22,29 @@ This project addresses the challenge of using Q-learning and DFS algorithms to d
 -**Algorithm Complexities:** Analys includes time and space complexities for each implemented algorithm, aiding in understanding their efficiency.
 
 ## Results 📈:
+
+As seen in figures 1, 2 and 3 in the analysis of hyperparameters, no consistent pattern for optimal combinations was observed, attributed to the small problem size and limited executions. Notably, DFS outperformed Q-learning, primarily because the Q-learning model's memory space complexity grows exponentially with the number of colors due to its specific formulation.
+
+<div align="center">
+	<a href="">
+	<img height = "250em" src = "./assets/DFS_qlearning.png" />
+    </a>
+</div>
+<h4 align="center">Figure 1 - Comparison between DFS and Q-learning.</h4>
+
+<div align="center">
+	<a href="">
+	<img height = "250em" src = "./assets/graph_colored.png" />
+    </a>
+</div>
+<h4 align="center">Figure 2 - Colored graph visual.</h4>
+
+<div align="center">
+	<a href="">
+	<img height = "250em" src = "./assets/hyperparameter_anal.png" />
+    </a>
+</div>
+<h4 align="center">Figure 3 - Hyperparameter analysis.</h4>
 
 ## Dependencies 🚚:
 
@@ -56,10 +79,4 @@ Feel free to create a new branch, fork the project, create a new Issue or make a
 ## Licence 📜:
 
 [Apache V2](https://choosealicense.com/licenses/apache-2.0/)
-
-## References 📙:
-	
-[1] <last_author_name>, <first_author_name>. <work_title>. XX/XX/XX.
-	
-[2] <work_title>, <author_name>. Avaliable in: <https://www.link.com>. Access in em XX/XX/XX.
 

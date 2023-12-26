@@ -12,7 +12,7 @@
 
 ## About 🤔:
 
-This project addresses the challenge of using Q-learning and DFS algorithms to distribute orange fox species in territories, ensuring that foxes of the same species cannot coexist in the same territory. The problem is modeled using graphs, where foxes represent vertices and edges connect foxes of the same species. The minimum number of colors required for a proper vertex coloring corresponds to the number of territories needed.
+This project addresses the challenge of using Q-learning and DFS algorithms to distribute orange fox species in territories, ensuring that foxes of the same species cannot coexist in the same territory. The problem is modeled using graphs, where foxes represent vertices and edges connect foxes of the same species. The minimum number of colors required for proper vertex coloring corresponds to the number of territories needed. Coloring graphs is an NP-hard problem, implying that deterministic solutions (since there are no polynomial solutions to the problem) are quite computationally intensive. Therefore, the problem cannot grow significantly.
 
 ## Resourses 🧑‍🔬:
 
@@ -23,7 +23,7 @@ This project addresses the challenge of using Q-learning and DFS algorithms to d
 
 ## Results 📈:
 
-As seen in figures 1, 2 and 3 in the analysis of hyperparameters, no consistent pattern for optimal combinations was observed, attributed to the small problem size and limited executions. Notably, DFS outperformed Q-learning, primarily because the Q-learning model's memory space complexity grows exponentially with the number of colors due to its specific formulation.
+As seen in figures 1, 2 and 3 in the analysis of hyperparameters, no consistent pattern for optimal combinations was observed, attributed to the small problem size and limited executions. Notably, DFS outperformed Q-learning in time and results, primarily because the Q-learning model's memory space complexity grows exponentially with the number of colors due to its specific formulation.
 
 <div align="center">
 	<a href="">

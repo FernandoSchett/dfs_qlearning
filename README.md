@@ -18,8 +18,8 @@ This project addresses the challenge of using Q-learning and DFS algorithms to d
 
 - **Graph Representation:** Visual representations of colored graphs, showcasing the distribution of fox species in different territories.
 - **Coloring Algorithms:** Python DFS (Depth-First Search) and Q-Learning implementations are used to color the graphs.
--**Hyperparameter Analysis:** Analysis of hyperparameters, providing graphical images by iteratively varying hyperparameters.
--**Algorithm Complexities:** Analys includes time and space complexities for each implemented algorithm, aiding in understanding their efficiency.
+- **Hyperparameter Analysis:** Analysis of hyperparameters, providing graphical images by iteratively varying hyperparameters.
+- **Algorithm Complexities:** Analys includes time and space complexities for each implemented algorithm, aiding in understanding their efficiency.
 
 ## Results 📈:
 
